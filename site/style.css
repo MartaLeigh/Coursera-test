@@ -1,0 +1,47 @@
+
+		body {
+			background-color: silver;
+			color: blue;
+			text-align: center;
+			}
+		h1 {
+			background-color: white;
+			color: green;
+			font-size: 150%;
+			font-weight: bold;
+			padding: 20px 20px;
+			margin: 20px;}
+
+			
+			p.one {
+				
+				width: 100px;
+				height: 50px;
+				margin: 5px 5px;
+				background-color: yellow;
+				border: thick solid black;
+				padding: 4px 4px;}
+					
+			p.two {
+				
+				width: 100px;
+				height: 50px;
+				margin: 5px 5px;
+				background-color: yellow;
+				border: thick solid black;
+				padding: 4px 4px;}	
+
+				
+			p.three {
+				
+				width: 100px;
+				height: 50px;
+				margin: 5px 5px;
+				background-color: yellow;
+				border: thick solid black;
+				padding: 4px 4px;}	
+	#chicken {color: red; border: thin solid black;}
+
+	
+
+	

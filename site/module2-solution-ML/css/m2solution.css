@@ -13,18 +13,18 @@
 			margin: 20px;}
 
 			
-			div {
+			div.container {
 				
-				width: 200px;
-				height: 300px;
+				width: 120px;
+				height: 250px;
 				float: left;
 				margin: 5px 5px;
 				background-color: yellow;
 				border: thick solid black;
-				padding: 4px 4px;}
+				padding: 2px 2px;}
 			
 	
-			p. {
+			p.title {
 			height: 30%; width: 50%; 
 			font-size: 50%;
 			position: relative; top: 1px; right: 1px; padding: 2px;

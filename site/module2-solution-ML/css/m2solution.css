@@ -13,7 +13,7 @@
 			margin: 20px;}
 
 			
-			section.container {
+			div {
 				
 				width: 200px;
 				height: 300px;
@@ -24,7 +24,7 @@
 				padding: 4px 4px;}
 			
 	
-			p.title {
+			p. {
 			height: 30%; width: 50%; 
 			font-size: 50%;
 			position: relative; top: 1px; right: 1px; padding: 2px;

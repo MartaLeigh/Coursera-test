@@ -28,7 +28,7 @@
 	
 			p.title1, .title2, .title3 {
 			height: 20%; width: 31.3%;
-			position: relative;
+			position: relative; float: right;
 			font-size: 75%;
 			position: relative; top: 0px; right: 0px; padding: 1px;
 			background-color: grey; color: red; 

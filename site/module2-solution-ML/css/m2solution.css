@@ -1,6 +1,8 @@
 
 		body {
 			background-color: silver;
+			width: 95%;
+			margin: 0 auto;
 			color: blue;
 			text-align: center;
 			}
@@ -13,19 +15,20 @@
 			margin: 20px;}
 
 			
-			div.container {
+			div.container1, .container2, .container3 {
 				
-				width: 120px;
-				height: 250px;
+				width: 31.3%;
+				height: 200px;
 				float: left;
-				margin: 5px 5px;
+				margin: 1px;
 				background-color: yellow;
 				border: thick solid black;
 				padding: 2px 2px;}
 			
 	
-			p.title {
-			height: 30%; width: 50%; 
+			p.title1, .title2, .title3 {
+			height: 30%; width: 31.3%;
+			position: relative;
 			font-size: 50%;
 			position: relative; top: 1px; right: 1px; padding: 2px;
 			background-color: grey; color: red; 

@@ -17,7 +17,7 @@
 			
 			div.container1, .container2, .container3 {
 				
-				width: 31.3%;
+				width: 30%;
 				height: 200px;
 				float: left;
 				margin: 1px;
@@ -29,7 +29,7 @@
 			p.title1, .title2, .title3 {
 			height: 20%; width: %;
 		 	float: right;
-			position: relative; top: 0px; right: 0px; padding: 1px;
+			position: relative; top: 0px; right: 0px; padding: 2px;
 			background-color: grey; font-color: black; 
 			border: thin solid black;
 			}

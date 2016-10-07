@@ -9,9 +9,9 @@
 	font-size: 100%;
 }
 		body {
-			background-color: silver;
-			width: 90%;
-			margin: 0 auto;
+			background-color: hsla(120,70%,60%,0.8);
+			
+		
 		}
 
 		h1 {
@@ -30,24 +30,32 @@
 				width: 150px;
 				height: 50px;
 				float: right;
-				color: black;
-				background-color: grey;
-				border: 1px solid black;
+				color: green;
+				border: 1px solid green;
 				font-size: 175%;
+				font-weight:;
 				text-align: center;
 			}	
-			
 			section.content1, .content2, .content3 {
 				width: 90%;
 				margin: 15px auto;
 				float: left
 				font-size: 125%;
-				color: blue;
-				background-color: yellow;
-				border: 1px solid black;			
+				color: green;
+				border: 1px solid green;			
 			}
+section.content1 {background-color: hsl(120,90%,85%);}
 
-			
+label.title1 {background-color: hsl(120,90%,80%);}
+
+section.content2 {background-color: hsl(120,90%,80%);}
+
+label.title2 {background-color: hsl(120,90%,75%);}
+
+section.content3 {background-color: hsl(120,90%,70%);}
+
+label.title3 {background-color: hsl(120,70%,70%);}
+
 			p {
 				padding: 40px 10px 10px 10px;
 				

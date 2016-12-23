@@ -107,13 +107,18 @@ function buildAndShowHomeHTML (categories) {
        console.log (chosenCategoryShortName);
        console.log (randomCategory);
 
-       var homeViewHtml =
-        buildHomeViewHtml (categories,
-                            homeHtml,
-                            chosenCategoryShortName);
+       // var homeViewHtml =
+       //  buildHomeViewHtml (categories,
+       //                      homeHtml,
+       //                      chosenCategoryShortName);
 
-       insertHtml("#main-content", homeViewHtml);
+       insertHtml("#main-content", homeHtml);
 
+
+
+        insertProperty(homeHtml, 
+                    "randomCategoryShortName", 
+                    chosenCategoryShortName);  
 
 },
 false); //False here because we are getting just regular HTML from the server, so no need to process JSON.
@@ -133,28 +138,28 @@ function chooseRandomCategory (categories) {
 
   // Using home data and snippets html
   // build home view HTML to be inserted into page
-  function buildHomeViewHtml (categories,
-                            homeHtml,
-                            chosenCategoryShortName) {
+  // function buildHomeViewHtml (categories,
+  //                           homeHtml,
+  //                           chosenCategoryShortName) {
 
-    var finalHtml = chosenCategoryShortName;
-    finalHtml += "<section class='row'>";
+  //   var finalHtml = chosenCategoryShortName;
+  //   finalHtml += "<section class='row'>";
 
-    // Loop over categories
-    for (var i = 0; i < categories.length; i++) {
-      // Insert home values
-      var html = homeHtml;
-      var name = "" + categories[i].name;
-      var short_name = categories[i].short_name;
-      html =
-        insertProperty(homeHtml, 
-                    "randomCategoryShortName", 
-                    chosenCategoryShortName);
-      finalHtml +=   html;
-    }
-      finalHtml += "</section>";
-      return finalHtml;
-  }
+  //   // Loop over categories
+  //   for (var i = 0; i < categories.length; i++) {
+  //     // Insert home values
+  //     var html = homeHtml;
+  //     var name = "" + categories[i].name;
+  //     var short_name = categories[i].short_name;
+      // html =
+      //   insertProperty(homeHtml, 
+      //               "randomCategoryShortName", 
+      //               chosenCategoryShortName);
+  //     finalHtml +=   html;
+  //   }
+  //     finalHtml += "</section>";
+  //     return finalHtml;
+  // }
 
 
       // TODO: STEP 2: Here, call chooseRandomCategory, passing it retrieved 'categories'
